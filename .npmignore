@@ -1,0 +1,2 @@
+# Empty - npm uses this instead of .gitignore
+# publish is controlled by "files" field in package.json
