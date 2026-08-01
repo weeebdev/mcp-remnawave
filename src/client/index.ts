@@ -225,11 +225,11 @@ export class RemnawaveClient {
     }
 
     async restartNode(uuid: string) {
-        return this.post(REST_API.NODES.ACTIONS.RESTART(uuid));
+        return this.post(REST_API.NODES.ACTIONS.RESTART(uuid), { forceRestart: true });
     }
 
     async restartAllNodes() {
-        return this.post(REST_API.NODES.ACTIONS.RESTART_ALL);
+        return this.post(REST_API.NODES.ACTIONS.RESTART_ALL, { forceRestart: true });
     }
 
     async resetNodeTraffic(uuid: string) {

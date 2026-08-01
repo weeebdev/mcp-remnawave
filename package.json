@@ -1,6 +1,6 @@
 {
   "name": "@weeebdev/remnawave-mcp",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "MCP server for Remnawave proxy management panel",
   "type": "module",
   "bin": {
@@ -19,7 +19,9 @@
     "proxy",
     "xray"
   ],
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "publishConfig": {
     "access": "public"
   },
